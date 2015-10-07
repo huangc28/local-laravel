@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/invite_friends_template', function(){
+	return view('migme.templates.invite_friends_email');
+});
