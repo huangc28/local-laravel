@@ -150,6 +150,53 @@
 									</div>
 								</div>
 							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-12 post">
+							<div class="row">
+								<div class="col-xs-2 col-sm-1">
+									<!-- User Photo -->
+									<div class="post-author-avatar">
+										<a href="http://mig.me/u/cutmemey" class="profile-hovercard" data-username="cutmemey" data-hasqtip="268" oldtitle="cutmemey" title="" aria-describedby="qtip-268">
+											<img src="http://img.mig.me/dp/cutmemey?w=36&amp;h=36&amp;a=1&amp;c=1" width="36" height="36" class="img-circle">
+										</a>
+									</div>	
+								</div>
+
+								<!-- User Name and Badges -->
+								<div class="post-author-status col-xs-8 col-sm-10 no-padding-left">
+									<div class="post-author"> 
+										<a href="http://mig.me/u/cutmemey" class="profile-hovercard" data-username="cutmemey" data-hasqtip="269" oldtitle="cutmemey" title="">cutmemey</a>
+									</div>
+									<div class="clearfix"></div>
+									<div class="post-time font-size12">
+										<a href="http://mig.me/u/reiayunan/post/213460180-1444289207177">
+											<time class="timeago" datetime="2015-10-08T07:26:47Z">18 mins ago</time> via Web | Location name, City, Country
+										</a>
+									</div>
+									<div class="clearfix"></div>
+								</div>	
+							</div>
+
+							<!-- Post Text -->
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="post-text">
+										This is picture of a beautiful girl.
+									</div>
+								</div>
+							</div>
+
+							<!-- User Post Image -->
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="post-image">
+										<a href="http://b-img.cdn.mig.me/i/8035/db3e4c2cce2395a89b062e0c0bd0e29f9b6c/1444291907398" class="fancybox" rel="homefeed" title="jeffreykumar: There&amp;#039;s a wall in #migme office where we hang the multis/bots we kill...  #justkidding #halloween ">
+            								<img class="post-image-img" src="http://b-img.cdn.mig.me/i/38cb/13cfcaa660d5169b1fb00431136b53519a4d/1444376288280">
+        								</a>
+									</div>
+								</div>
+							</div>
 						</div>	
 
 						<div class="col-xs-12 col-sm-12 post">
@@ -177,32 +224,25 @@
 									<div class="clearfix"></div>
 								</div>	
 							</div>
-						</div>	
-						
-						<div class="col-xs-12 col-sm-12 post">
-							<div class="row">
-								<div class="col-xs-2 col-sm-1">
-									<!-- User Photo -->
-									<div class="post-author-avatar">
-										<a href="http://mig.me/u/cutmemey" class="profile-hovercard" data-username="cutmemey" data-hasqtip="268" oldtitle="cutmemey" title="" aria-describedby="qtip-268">
-											<img src="http://img.mig.me/dp/cutmemey?w=36&amp;h=36&amp;a=1&amp;c=1" width="36" height="36" class="img-circle">
-										</a>
-									</div>	
-								</div>
 
-								<!-- User Name and Badges -->
-								<div class="post-author-status col-xs-8 col-sm-10 no-padding-left">
-									<div class="post-author"> 
-										<a href="http://mig.me/u/cutmemey" class="profile-hovercard" data-username="cutmemey" data-hasqtip="269" oldtitle="cutmemey" title="">cutmemey</a>
+							<!-- Post Text -->
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="post-text">
+										Nice looking girl.
 									</div>
-									<div class="clearfix"></div>
-									<div class="post-time font-size12">
-										<a href="http://mig.me/u/reiayunan/post/213460180-1444289207177">
-											<time class="timeago" datetime="2015-10-08T07:26:47Z">18 mins ago</time> via Web | Location name, City, Country
-										</a>
+								</div>
+							</div>
+
+							<!-- User Post Image -->
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="post-image">
+										<a href="http://b-img.cdn.mig.me/i/8035/db3e4c2cce2395a89b062e0c0bd0e29f9b6c/1444291907398" class="fancybox" rel="homefeed" title="jeffreykumar: There&amp;#039;s a wall in #migme office where we hang the multis/bots we kill...  #justkidding #halloween ">
+            								<img class="post-image-img" src="http://b-img.cdn.mig.me/i/81dd/5982dc69a3c3b218c4ee5a38910f2e354806/1444565298575">
+        								</a>
 									</div>
-									<div class="clearfix"></div>
-								</div>	
+								</div>
 							</div>
 						</div>			
 					</div><!-- End of Posts -->
