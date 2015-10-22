@@ -4,9 +4,9 @@
 	<title>Migme invite friends template</title>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-    <!-- Latest compiled and minified JavaScript -->
+  <!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 	<!-- Import font-awesome -->
@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="{{ asset('css/invite_friends_email.css') }}">
 
 </head>
-<body>	
+<body>
 	<div class="container">
 		<div class="row content-container">
 			<div class="col-md-12">
@@ -65,27 +65,27 @@
 					<div class="row user-info-list">
 						<div class="col-md-10 col-md-offset-1">
 							<div class="row">
-								<div class="col-md-2">
+								<div class="col-xs-6 col-md-2">
 									<span class="counter">204</span>
 									<p>Fans</p>
 								</div>
-								<div class="col-md-2">
+								<div class="col-xs-6 col-md-2">
 									<span class="counter">204</span>
 									<p>Badges</p>
 								</div>
-								<div class="col-md-2">
+								<div class="col-xs-6 col-md-2">
 									<span class="counter">204</span>
 									<p>Gifts</p>
 								</div>
-								<div class="col-md-2">
+								<div class="col-xs-6 col-md-2">
 									<span class="counter">204</span>
 									<p>Groups</p>
 								</div>
-								<div class="col-md-2">
+								<div class="col-xs-6 col-md-2">
 									<span class="counter">204</span>
 									<p>Chatrooms</p>
 								</div>
-								<div class="col-md-2">
+								<div class="col-xs-6 col-md-2">
 									<span class="counter">204</span>
 									<p>Games</p>
 								</div>
@@ -113,12 +113,12 @@
 										<a href="http://mig.me/u/cutmemey" class="profile-hovercard" data-username="cutmemey" data-hasqtip="268" oldtitle="cutmemey" title="" aria-describedby="qtip-268">
 											<img src="http://img.mig.me/dp/cutmemey?w=36&amp;h=36&amp;a=1&amp;c=1" width="36" height="36" class="img-circle">
 										</a>
-									</div>	
+									</div>
 								</div>
 
 								<!-- User Name and Badges -->
 								<div class="post-author-status col-xs-8 col-sm-10 no-padding-left">
-									<div class="post-author"> 
+									<div class="post-author">
 										<a href="http://mig.me/u/cutmemey" class="profile-hovercard" data-username="cutmemey" data-hasqtip="269" oldtitle="cutmemey" title="">cutmemey</a>
 									</div>
 									<div class="clearfix"></div>
@@ -128,7 +128,7 @@
 										</a>
 									</div>
 									<div class="clearfix"></div>
-								</div>	
+								</div>
 							</div>
 
 							<!-- Post Text -->
@@ -160,12 +160,12 @@
 										<a href="http://mig.me/u/cutmemey" class="profile-hovercard" data-username="cutmemey" data-hasqtip="268" oldtitle="cutmemey" title="" aria-describedby="qtip-268">
 											<img src="http://img.mig.me/dp/cutmemey?w=36&amp;h=36&amp;a=1&amp;c=1" width="36" height="36" class="img-circle">
 										</a>
-									</div>	
+									</div>
 								</div>
 
 								<!-- User Name and Badges -->
 								<div class="post-author-status col-xs-8 col-sm-10 no-padding-left">
-									<div class="post-author"> 
+									<div class="post-author">
 										<a href="http://mig.me/u/cutmemey" class="profile-hovercard" data-username="cutmemey" data-hasqtip="269" oldtitle="cutmemey" title="">cutmemey</a>
 									</div>
 									<div class="clearfix"></div>
@@ -175,7 +175,7 @@
 										</a>
 									</div>
 									<div class="clearfix"></div>
-								</div>	
+								</div>
 							</div>
 
 							<!-- Post Text -->
@@ -197,7 +197,7 @@
 									</div>
 								</div>
 							</div>
-						</div>	
+						</div>
 
 						<div class="col-xs-12 col-sm-12 post">
 							<div class="row">
@@ -207,12 +207,12 @@
 										<a href="http://mig.me/u/cutmemey" class="profile-hovercard" data-username="cutmemey" data-hasqtip="268" oldtitle="cutmemey" title="" aria-describedby="qtip-268">
 											<img src="http://img.mig.me/dp/cutmemey?w=36&amp;h=36&amp;a=1&amp;c=1" width="36" height="36" class="img-circle">
 										</a>
-									</div>	
+									</div>
 								</div>
 
 								<!-- User Name and Badges -->
 								<div class="post-author-status col-xs-8 col-sm-10 no-padding-left">
-									<div class="post-author"> 
+									<div class="post-author">
 										<a href="http://mig.me/u/cutmemey" class="profile-hovercard" data-username="cutmemey" data-hasqtip="269" oldtitle="cutmemey" title="">cutmemey</a>
 									</div>
 									<div class="clearfix"></div>
@@ -222,7 +222,7 @@
 										</a>
 									</div>
 									<div class="clearfix"></div>
-								</div>	
+								</div>
 							</div>
 
 							<!-- Post Text -->
@@ -244,7 +244,7 @@
 									</div>
 								</div>
 							</div>
-						</div>			
+						</div>
 					</div><!-- End of Posts -->
 				</div>
 			</div>
@@ -264,7 +264,7 @@
 					<div class="row">
 						<div class="invitation-link col-md-8 col-md-offset-2">
 							<p>
-								Having problems with the link? You can also paste the following address into your browser: 
+								Having problems with the link? You can also paste the following address into your browser:
 								<a href="https://register.mig.me/referral?referrer=email&invitationToken=fc01d82e5f9582cbe821f5
 								65096614c5&email=migtester%40yopmail.com">https://register.mig.me/referral?referrer=email&invitationToken=fc01d82e5f9582cbe821f5
 								65096614c5&email=migtester%40yopmail.com</a>
