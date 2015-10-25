@@ -9,11 +9,19 @@ p{
 	font-family: "Helvetica Neue", "HelveticaNeue-Medium", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
+.container {
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+}
+
 .no-padding-left{
 	padding-left: 0 !important;
 }
 
-.circular{
+.circular-lg{
 	width: 148px;
 	height: 148px;
 	border-radius: 124px;
@@ -21,27 +29,57 @@ p{
 	-moz-border-radius: 124px;
 }
 
+.circular-sm{
+	width: 48px;
+	height: 48px;
+	border-radius: 24px;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+}
+
+.float-left {
+  float: left;
+}
+
+.clearfix {
+  zoom: 1;
+  overflow:auto;
+  clear:both;
+}
+
+/* container size is dynamics */
 .container{
-	width:820px;
+	max-width: 820px;
 	text-align: center;
 }
 .content-container{
+  padding-bottom: 53.3333px;
+  width: 100%;
 	padding-top: 0px;
 	margin-top: 53.333333px;
 }
+
 .centerred{
 	margin: 0 auto;
 	float: none;
 }
-.company-logo{
-	width: 60px;
+
+.company-logo-container .company-logo {
+  width: 160px;
+  height: 80px
 }
+
+.company-logo-container .company-logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .invitation-text{
 	margin-top: 46.533333px;
 }
 
 .invitation-text p{
-	font-size: 2em;
+	font-size: 32px !important;
 	text-align: left;
 	padding-right: 41px;
 	padding-left: 48px;
@@ -55,18 +93,30 @@ p{
 	margin-top: 40.8px;
 }
 
-.user-avatar::before{
-	content: "";
-	-webkit-border-radius: 6.666667px 6.666667px 0 0;
+.user-avatar .user-avatar-upper{
+  position: relative;
+	/*content: "";*/
+	background-color: #E8E8E8;
+  -webkit-border-radius: 6.666667px 6.666667px 0 0;
 	-moz-border-radius: 6.666667px 6.666667px 0 0;
 	border-radius: 6.666667px 6.666667px 0 0;
-	background-color: #F8F8F8;
 	position:absolute;
-	top: 50%;
+	top: 0;
+	right: 0;
+	bottom: 50%;
+	width: 100%;
+	height: 50%;
+}
+
+.user-avatar .user-avatar-bottom {
+  position: relative;
+  background-color: #F8F8F8;
+  height: 50%;
 	right: 0;
 	bottom: 0;
-	width: 100%;	
-	height:50%;
+  top: 50%;
+	width: 100%;
+
 }
 
 .user-avatar .user-image{
@@ -88,6 +138,7 @@ p{
 	background-color: #F8F8F8;
 	padding-top:17.5px;
 	padding-bottom: 39.066667px;
+  padding-left
 	/*margin-bottom: 15.466667;*/
 }
 
@@ -102,8 +153,13 @@ p{
 	font-size: 24px;
 }
 
-.user-info-list{
+.user-info-list {
 	margin-top: 15.466667px;
+}
+
+.user-info-list .stat{
+  width: 15%;
+  display: inline-block;
 }
 
 .user-info-list .counter{
@@ -111,7 +167,13 @@ p{
 	color: #67B8A0;
 }
 
-.custom-message-box{
+.custom-message-container {
+  /*width: 100%;*/
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.custom-message-container .custom-message {
 	-webkit-border-radius: 6.666667px;
 	-moz-border-radius: 6.666667px;
 	border-radius: 6.666667px;
@@ -146,16 +208,28 @@ p{
 	margin-top: 43.6px;
 }
 
+.centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .posts-container{
+
+  /*margin: 0 auto;*/
 	-webkit-border-radius: 6.666667px;
 	-moz-border-radius: 6.666667px;
 	border-radius: 6.666667px;
 	margin-top: 40px;
 	width: 666.666667px;
-	
 }
 
 .posts-container .post{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 24px 28px;
+  width: 100%;
 	padding-bottom: 22.666667px;
 	margin-bottom: 18.666667px;
 	background-color: #FFFFFF;
@@ -166,12 +240,18 @@ p{
 }
 
 .posts-container .post .post-author-avatar{
+  margin-right: 11.7px;
 	padding: 8px 0 0 8px;
 }
 
 .posts-container .post .post-author{
-	padding-top: 4px;
-	float: left;
+  padding-top: 18px;
+	padding-left: 30px;
+}
+
+.posts-container .post .post-author .post-author-name{
+  margin-bottom: 4px;
+	text-align: left;
 }
 
 .posts-container .post .post-author a{
@@ -197,6 +277,7 @@ p{
 }
 
 .posts-container .post .post-text.post-image{
+  max-width: 100%;
 	margin-top: 16px;
 	padding: 8px;
 }
@@ -215,5 +296,3 @@ p{
 	vertical-align: middle;
 	border: 0;
 }
-
-

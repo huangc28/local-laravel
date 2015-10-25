@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::get('/invite_friends_template', function(){
 	return view('migme.templates.invite_friends_email');
 });
+
+Route::get('/invite_friends_template_inline', function(){
+	return view('migme.templates.invite_friends_email_inline');
+});
+
+Route::get('/invite_friends_template_inline_result', function(){
+	return view('migme.templates.invite_friends_email_inline_result');
+});
