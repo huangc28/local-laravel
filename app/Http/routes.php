@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/settings_form_style', function() {
+	return view('migme.profile_settings_form');
+});
