@@ -58,12 +58,12 @@
 			}
 			
 			.profile-textarea {
-				background-image: -webkit-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px) !important;
-			    background-image: -moz-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px)!important;
-			    background-image: -ms-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px)!important;
-			    background-image: -o-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px)!important;
-			    background-image: linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px)!important;
-			    border: 1px solid #ccc;
+				background-image: -webkit-linear-gradient(white, white 30px, #ddd 30px, #ddd 31px, white 31px) !important;
+			    background-image: -moz-linear-gradient(white, white 30px, #ddd 30px, #ddd 31px, white 31px)!important;
+			    background-image: -ms-linear-gradient(white, white 30px, #ddd 30px, #ddd 31px, white 31px)!important;
+			    background-image: -o-linear-gradient(white, white 30px, #ddd 30px, #ddd 31px, white 31px)!important;
+			    background-image: linear-gradient(white, white 30px, #ddd 30px, #ddd 31px, white 31px)!important;
+			    border: 1px solid #ddd;
 			    border-radius: 8px;
 			    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 			    line-height: 31px;
