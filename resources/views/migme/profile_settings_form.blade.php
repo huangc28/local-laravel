@@ -38,7 +38,7 @@
 				color:    #cccccc !important;
 			}
 
-			input,select {
+			input,select,textarea {
 				border: 0px !important;
 			    outline: 0;
 			    background: transparent !important;
@@ -53,7 +53,22 @@
 				font-family: "Lato-Regular";
 				font-size: 14px;
 				color: #cccccc !important;
-
+				resize: none;
+				overflow: hidden;
+			}
+			
+			.profile-textarea {
+				background-image: -webkit-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px) !important;
+			    background-image: -moz-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px)!important;
+			    background-image: -ms-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px)!important;
+			    background-image: -o-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px)!important;
+			    background-image: linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px)!important;
+			    border: 1px solid #ccc;
+			    border-radius: 8px;
+			    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+			    line-height: 31px;
+			    font-family: Arial, Helvetica, Sans-serif;
+			    padding: 0;
 			}
 
 			.form-title {
@@ -93,6 +108,7 @@
 				margin-top: 0 !important;
 				text-align: left;
 				background-color: #fff;
+				padding-right: 16px;
 				padding-left: 16px;
 			}	
 
@@ -101,11 +117,6 @@
 				font-size: 14px;
 				padding-left: 16px;
 				padding-right: 20px;
-			}
-
-			.profile-setting-form span {
-				/*float: right;
-				clear:both;*/
 			}
 
 			.profile-setting-form label {
@@ -123,6 +134,27 @@
 
 			.profile-setting-form {
 				margin-top: 12px;
+			}
+
+			.profile-button-container div:first-child {
+				text-align: right;
+			}
+
+			.profile-button-container button {
+				border: solid 1px;
+			}
+	
+			.profile-button-container button:nth-child(2) {
+				background-color: #6dcbc4;
+			}
+
+			.profile-button-container button{
+				height: 44px;
+				width: 100%;
+				border: solid 1px;
+				-webkit-border-radius: 40px !important;
+				-moz-border-radius: 40px !important;
+				border-radius: 40px !important;
 			}
 		</style>
 	</head>
@@ -244,40 +276,36 @@
 					<hr>
 
 					<!-- About -->
-					<div>
-						<label for="about" class="control-label">About</label>
-						<p>
-							<textarea id="about" name="about" placeholder="Write something about yourself here..."></textarea>
-						</p>
+					<div class="form-group">
+						<label for="about" class="col-md-12 control-label">ABOUT</label>
+						<textarea id="about" class="form-control profile-textarea" name="about" placeholder="Write something about yourself here..."></textarea>						
 					</div>
 
 					<!-- Interest -->
-					<div>
-						<label for="interest">Interest</label>
-						<p>
-							<textarea id="interest" name="interest" placeholder="What are you interested in?"></textarea>
-						</p>
+					<div class="form-group">
+						<label for="interest" class="col-md-12 control-label">INTEREST</label>
+						<textarea id="interest" class="form-control profile-textarea" name="interest" placeholder="What are you interested in?"></textarea>						
 					</div>
 
 					<!-- Study -->
-					<div>
-						<label for="study">Interest</label>
-						<p>
-							<textarea id="study" name="study" placeholder="Where do you study?"></textarea>
-						</p>
+					<div class="form-group">
+						<label for="study" class="col-md-12 control-label">STUDY</label>
+						<textarea id="study" class="form-control profile-textarea" name="study" placeholder="Where do you study?"></textarea>						
 					</div>
 
 					<!-- Work -->
-					<div class="">
-						<label for="study">Interest</label>
-						<p>
-							<textarea id="study" name="study" placeholder="Where do you work?"></textarea>
-						</p>
+					<div class="form-group">
+						<label class="col-md-12 control-label" for="study">WORK</label>						
+						<textarea class="form-control profile-textarea" id="study" name="study" placeholder="Where do you work?"></textarea>						
 					</div>
 					
-					<div class="profile-buttonrr-container">
-						<input type="button" value="Cancel">
-						<input type="submit" value="Save">
+					<div class="row profile-button-container">
+						<div class="col-md-offset-2 col-md-4">
+							<button type="button" class="btn btn-default">Cancel</button>
+						</div>
+						<div class="col-md-4">
+							<button type="button" class="btn btn-default">Save</button>
+						</div>
 					</div>
 				</form>
 			</div>
