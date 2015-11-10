@@ -56,6 +56,13 @@
 
 			}
 
+			.form-title {
+				padding-top: 12px;
+				padding-bottom: 12px;
+				padding-left: 16px;
+				background-color: #f5f5f5;
+			}
+
 			.form-control {
 				border-bottom: 1px solid #dddddd !important;
 			}
@@ -72,6 +79,9 @@
 			}
 			
 			.form-horizontal .control-label{
+				padding-left: 0px;
+				padding-top: 12px;
+				padding-bottom: 12px;
 				text-align:left;
 			}
 
@@ -80,6 +90,7 @@
 			}
 
 			.profile-setting-form {
+				margin-top: 0 !important;
 				text-align: left;
 				background-color: #fff;
 				padding-left: 16px;
@@ -100,12 +111,14 @@
 			.profile-setting-form label {
 				font-family: "Lato-Regular";
 				font-size: 14px;
+				color: #999999;
 				text-align: left;
 			}
 		
 			.form-container p{
-				
-				margin-left: 12px;
+				margin-top:0;
+				margin-bottom:0;
+				/*margin-left: 12px;*/
 			}
 
 			.profile-setting-form {
@@ -116,16 +129,13 @@
 	<body>
 		<div class="container">
 			<div class="row form-container">
-				
-				<!-- Form Title -->
-				<div class="col-md-12">
-					
-				</div>
-
+				<div class="form-title">					
+					<strong>Edit Profile</strong>
+				</div>	
 				<form class="form-horizontal profile-setting-form">
-					<div class="form-group form-title">
-						<label class="col-md-12 control-label">Edit Profile</label>
-					</div>
+					<!-- <div>
+						<strong>Edit Profile</strong>
+					</div> -->
 
 					<!-- User Full Name -->
 					<div class="form-group">
