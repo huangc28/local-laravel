@@ -19,10 +19,6 @@
 				background-color: #dddddd;
 			}
 
-			form {
-				/*border: solid 1px;*/
-			}
-	
 			::-webkit-input-placeholder { /* WebKit, Blink, Edge */
 				color:    #cccccc !important;
 			}
@@ -39,7 +35,8 @@
 			}
 
 			input,select,textarea {
-				border: 0px !important;
+				padding: 0 !important;
+				border-width: 0px 0px 1px 0px !important;
 			    outline: 0;
 			    background: transparent !important;
 			    margin-bottom: 12px;
@@ -56,7 +53,7 @@
 				resize: none;
 				overflow: hidden;
 			}
-			
+
 			.profile-textarea {
 				background-image: -webkit-linear-gradient(white, white 30px, #ddd 30px, #ddd 31px, white 31px) !important;
 			    background-image: -moz-linear-gradient(white, white 30px, #ddd 30px, #ddd 31px, white 31px)!important;
@@ -104,12 +101,17 @@
 				padding: 0 !important;
 			}
 
+			.nopadding-bottom {
+				padding-bottom: 0 !important;
+			}
+
 			.profile-setting-form {
 				margin-top: 0 !important;
 				text-align: left;
 				background-color: #fff;
 				padding-right: 16px;
 				padding-left: 16px;
+				padding-bottom: 24px;
 			}	
 
 			.profile-setting-form div {
@@ -151,6 +153,7 @@
 			}
 
 			.profile-button-container .save-btn {
+				background: #6dcbc4;
 				color: #ffffff;
 			}			
 
@@ -160,7 +163,6 @@
 
 			.profile-button-container button:nth-child(2) {
 				margin-left: 12px;
-				background: #6dcbc4;
 			}
 
 			.profile-button-container button {
@@ -175,153 +177,58 @@
 				-moz-border-radius: 40px !important;
 				border-radius: 40px !important;
 			}
-	
+
+			.remark {
+				line-height: 20px;
+				font-family: "Lato-Regular";
+				font-size: 14px;
+				color: #999999;
+				padding: 14px 0px 14px 0px;
+			}
+
+			.no-margin-bottom {
+				margin-bottom: 0px !important;
+			}
 		</style>
 	</head>
 	<body>
 		<div class="container">
 			<div class="row form-container">
 				<div class="form-title">					
-					<strong>Edit Profile</strong>
+					<strong>Decide who gets to see your stuff and get in touch</strong>
 				</div>	
 				<form class="form-horizontal profile-setting-form">
-					<!-- <div>
-						<strong>Edit Profile</strong>
-					</div> -->
-
-					<!-- User Full Name -->
-					<div class="form-group">
-						<!-- <label for="username" class="col-md-4 control-label">Name</label> -->
-						<label for="username" class="col-md-4 control-label">Name</label>
-						<div class="col-md-8">
-							<input class="form-control" id="username" type="text" placeholder="Your name">								
-						</div>
-					</div>
-
-					<!-- Birth Day -->
-					<div class="form-group">
-						<label class="col-md-4 control-label">
-							Birth Day
-						</label>		
-						<div class="col-md-8 nopadding">										
-							<div class="row">
-								<div class="col-md-4 1_3_select">
-									<select class="form-control" name="day">
-										<option>Day</option>
-										<option>1</option>
-										<option>2</option>
-										<option>3</option>
-										<option>4</option>
-										<option>5</option>
-										<option>6</option>
-										<option>7</option>
-										<option>8</option>
-										<option>9</option>
-										<option>10</option>
-										<option>11</option>
-										<option>12</option>
-									</select>
-								</div>
-								<div class="col-md-4">
-									<select class="form-control" name="month">
-										<option>Month</option>
-										<option>1</option>
-										<option>2</option>
-										<option>3</option>
-										<option>4</option>
-										<option>5</option>
-										<option>6</option>
-										<option>7</option>
-										<option>8</option>
-										<option>9</option>
-										<option>10</option>
-										<option>11</option>
-										<option>12</option>
-									</select>
-								</div>
-								<div class="col-md-4">
-									<select class="form-control" name="year">
-										<option>Year</option>
-										<option>1</option>
-										<option>2</option>
-										<option>3</option>
-										<option>4</option>
-										<option>5</option>
-										<option>6</option>
-										<option>7</option>
-										<option>8</option>
-										<option>9</option>
-										<option>10</option>
-										<option>11</option>
-										<option>12</option>										
-									</select>
-								</div>
-							</div>
-						</div>
-					</div>
 					
-					<!-- Gender -->
-					<div class="form-group">
-						<label for="gender" class="col-md-4 control-label">Gender</label>
-						<div class="col-md-8">
+					<!-- Remark -->					
+					<p class="remark">Who can chat with you?</p>
+						
+					<!-- Friends -->
+					<div class="form-group nopadding-bottom">
+						<div class="col-md-12 nopadding">
 							<select class="form-control" id="gender">
-								<option>Male</option>
-								<option>Female</option>
+								<option>Friends</option>
+								<option>Anonnymous</option>
+								<option>Strangers</option>
 							</select>
 						</div>
 					</div>
 
-					<!-- Relationship -->
-					<div class="form-group">
-						<label class="col-md-4 control-label" for="relationship">Relationship</label>
-						<div class="col-md-8">
+					<p class="remark">Who can chat with you?</p>
+						
+					<!-- Who Can Be Fan? -->
+					<div class="form-group no-margin-bottom nopadding-bottom">
+						<div class="col-md-12 nopadding">
 							<select class="form-control" id="relationship">
-								<option value="1">single</option>
-								<option value="2">stable</option>
+								<option value="1">People I approve</option>
+								<option value="2">People I don't approve</option>
 							</select>
 						</div>							
 					</div>
 
-					<!-- Location -->
-					<div class="form-group">
-						<label class="col-md-4 control-label" for="location">Location</label>							
-						<div class="col-md-8">
-							<select class="form-control" id="city">
-								<option value="1">Taiwan</option>
-								<option value="2">Singapore</option>
-							</select>	
-						</div>
-					</div>
-
-					<hr>
-
-					<!-- About -->
-					<div class="form-group">
-						<label for="about" class="col-md-12 control-label">ABOUT</label>
-						<textarea id="about" class="form-control profile-textarea" name="about" placeholder="Write something about yourself here..."></textarea>						
-					</div>
-
-					<!-- Interest -->
-					<div class="form-group">
-						<label for="interest" class="col-md-12 control-label">INTEREST</label>
-						<textarea id="interest" class="form-control profile-textarea" name="interest" placeholder="What are you interested in?"></textarea>						
-					</div>
-
-					<!-- Study -->
-					<div class="form-group">
-						<label for="study" class="col-md-12 control-label">STUDY</label>
-						<textarea id="study" class="form-control profile-textarea" name="study" placeholder="Where do you study?"></textarea>						
-					</div>
-
-					<!-- Work -->
-					<div class="form-group">
-						<label class="col-md-12 control-label" for="study">WORK</label>						
-						<textarea class="form-control profile-textarea" id="study" name="study" placeholder="Where do you work?"></textarea>						
-					</div>
-					
+					<p class="remark">Only people you approve will be able to see your posts and activities. Your posts will not appear in public search results.</p>
+						
 					<div class="row profile-button-container">						
-							<button type="button" class="btn setting-btn cancel-btn">Cancel</button>				
-							<button type="button" class="btn setting-btn save-btn">Save</button>
+						<button type="button" class="btn setting-btn save-btn">Save</button>
 					</div>
 				</form>
 			</div>

@@ -15,6 +15,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/settings_form_style', function() {
-	return view('migme.profile_settings_form');
+Route::get('/profile_settings_account', function(){
+	return view('migme.profile_settings_account');
+});
+
+Route::get('/profile_setting_privacy', function(){
+	return view('migme.profile_settings_privacy');
+});
+
+Route::get('/profile_setting_security', function(){
+	return view('migme.profile_settings_security');
 });
