@@ -143,8 +143,16 @@
 			.profile-button-container .setting-btn {
 				margin: 0 auto;
 				width: 132px;
-				display: inline-block !important;
+				display: inline-block;
 			}
+
+			.profile-button-container .cancel-btn {
+				color: #999999;
+			}
+
+			.profile-button-container .save-btn {
+				color: #ffffff;
+			}			
 
 			.profile-button-container button:first-child {
 				margin-right: 12px;
@@ -156,6 +164,9 @@
 			}
 
 			.profile-button-container button {
+				line-height: 20px
+				font-family: 'Lato-Regular';
+				font-size: 14px;
 				background: #ffffff;
 				height: 44px;
 				width: 100%;
@@ -309,8 +320,8 @@
 					</div>
 					
 					<div class="row profile-button-container">						
-							<button type="button" class="btn setting-btn">Cancel</button>				
-							<button type="button" class="btn setting-btn">Save</button>
+							<button type="button" class="btn setting-btn cancel-btn">Cancel</button>				
+							<button type="button" class="btn setting-btn save-btn">Save</button>
 					</div>
 				</form>
 			</div>
