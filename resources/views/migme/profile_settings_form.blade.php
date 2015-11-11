@@ -136,26 +136,35 @@
 				margin-top: 12px;
 			}
 
-			.profile-button-container div:first-child {
-				text-align: right;
+			.profile-button-container {
+				text-align: center;
+			}
+
+			.profile-button-container .setting-btn {
+				margin: 0 auto;
+				width: 132px;
+				display: inline-block !important;
+			}
+
+			.profile-button-container button:first-child {
+				margin-right: 12px;
+			}
+
+			.profile-button-container button:nth-child(2) {
+				margin-left: 12px;
+				background: #6dcbc4;
 			}
 
 			.profile-button-container button {
-				border: solid 1px;
-			}
-	
-			.profile-button-container button:nth-child(2) {
-				background-color: #6dcbc4;
-			}
-
-			.profile-button-container button{
+				background: #ffffff;
 				height: 44px;
 				width: 100%;
-				border: solid 1px;
+				border: solid 1px #999999;
 				-webkit-border-radius: 40px !important;
 				-moz-border-radius: 40px !important;
 				border-radius: 40px !important;
 			}
+	
 		</style>
 	</head>
 	<body>
@@ -299,13 +308,9 @@
 						<textarea class="form-control profile-textarea" id="study" name="study" placeholder="Where do you work?"></textarea>						
 					</div>
 					
-					<div class="row profile-button-container">
-						<div class="col-md-offset-2 col-md-4">
-							<button type="button" class="btn btn-default">Cancel</button>
-						</div>
-						<div class="col-md-4">
-							<button type="button" class="btn btn-default">Save</button>
-						</div>
+					<div class="row profile-button-container">						
+							<button type="button" class="btn setting-btn">Cancel</button>				
+							<button type="button" class="btn setting-btn">Save</button>
 					</div>
 				</form>
 			</div>
